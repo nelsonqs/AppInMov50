@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="com.ucb.appin.views.fragment.FragmentPublicationDetail">
+
+    <LinearLayout
+        android:id="@+id/fragmentDetailsMailWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripcion: "
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textViewFragmentMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:text="Message" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewFragmentSubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Quieres conseguir premio?" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefono celular: "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewFragmentSenderName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="alejandrofpo@gmail.com" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Direccion: "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewFragmentAddres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="alejandrofpo@gmail.com" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
