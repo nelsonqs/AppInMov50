@@ -1,5 +1,5 @@
-# README #
-Inmobiliaria Virtual
+#  INMOBILIARIA VIRTUAL #
+Diplomado de Aplicaciones Mobiles - UCB 
 
 ### Repositorio  ###
 
